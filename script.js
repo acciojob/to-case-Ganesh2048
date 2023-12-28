@@ -1,7 +1,7 @@
 function toCase(text) {
   // write your code here
 	
-	let str=(text+"-"+text.toUpperCase());
+	let str=(text.toLowerCase()+"-"+text.toUpperCase());
 	return str;
 }
 
